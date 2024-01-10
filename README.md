@@ -1,6 +1,6 @@
-# My Personal Portfolio
+# Rathish Kumar M - Portfolio
 
-This repository contains the source code for my personal portfolio website developed using React.js.
+Welcome to the repository for my personal portfolio website.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This repository contains the source code for my personal portfolio website devel
 
 ## About
 
-Welcome to my personal portfolio! This website showcases my skills, projects, and provides information about me. It serves as a digital resume and a platform to share my work with others.
+This repository contains the source code for my personal portfolio website. It showcases my skills, projects, experience, certification and provides information about me. The portfolio serves as a digital resume and a platform to share my work with others.
 
 ## Features
 
@@ -27,16 +27,19 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - React.js
 - HTML
 - CSS (styled-components)
-- [Any other technologies you have used]
+- GitHub Pages for hosting
 
 ## Getting Started
 
-To run this project locally, follow these steps:
+To view this project, visit [Rathish Kumar M - Portfolio](https://rathishkumar07.github.io/rathishkumar_m/)
+
+If you want to run this project locally, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/RATHISHKUMAR07/rathishkumar_m.git
+
 
 2. Navigate to the project directory:
 
