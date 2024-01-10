@@ -56,7 +56,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen)
             }}>Contact</MobileLink>
               <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github</GitHubButton>
-              <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.githlinkedinub} target="_blank">LinkedIn</GitHubButton>
+              <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank">LinkedIn</GitHubButton>
 
           </MobileMenu>
         }

@@ -8,8 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/RATHISHKUMAR07",
-  resume:
-    "https://naveen-portfolio.s3.ap-south-1.amazonaws.com/docs/NaveenKumar+SDE.pdf",
+  resume:"https://drive.google.com/file/d/1L-4_k_XotQxfFNafhLmnADm0HRBPC3rY/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rathishkumar-m/",
   instagram: "https://www.instagram.com/rathishkumar_/",
   email: "rathishkumar022@gmail.com",
