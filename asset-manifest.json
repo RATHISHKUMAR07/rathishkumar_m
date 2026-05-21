@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rathishkumar_m/static/css/main.66280c97.css",
+    "main.js": "/rathishkumar_m/static/js/main.c893eaee.js",
+    "index.html": "/rathishkumar_m/index.html",
+    "main.66280c97.css.map": "/rathishkumar_m/static/css/main.66280c97.css.map",
+    "main.c893eaee.js.map": "/rathishkumar_m/static/js/main.c893eaee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66280c97.css",
+    "static/js/main.c893eaee.js"
+  ]
+}
