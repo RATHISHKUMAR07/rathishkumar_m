@@ -1,0 +1,56 @@
+:root {
+  --bg: #0e0e0f;
+  --bg2: #161618;
+  --bg3: #1e1e21;
+  --border: rgba(255, 255, 255, 0.07);
+  --border2: rgba(255, 255, 255, 0.13);
+  --text: #f0ede8;
+  --muted: #888683;
+  --subtle: #4a4846;
+  --gold: #c9a84c;
+  --gold-light: #e8c87a;
+  --gold-dim: rgba(201, 168, 76, 0.13);
+  --gold-dim2: rgba(201, 168, 76, 0.22);
+  --green: #5fcf9a;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.25; }
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: none;
+}

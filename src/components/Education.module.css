@@ -1,0 +1,52 @@
+.title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+  line-height: 1.15;
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 2rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.item:last-child { border-bottom: none; }
+
+.year {
+  font-size: 12px;
+  color: var(--subtle);
+  padding-top: 2px;
+}
+
+.degree {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.school {
+  font-size: 13px;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.grade {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.desc {
+  font-size: 13px;
+  color: var(--subtle);
+  line-height: 1.65;
+}
+
+@media (max-width: 680px) {
+  .item { grid-template-columns: 1fr; gap: 0.4rem; }
+  .title { font-size: 28px; }
+}

@@ -1,0 +1,88 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.bio {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.85;
+  margin-bottom: 0.85rem;
+}
+
+.detailGrid { 
+  display: grid; 
+  gap: 12px; /* Slightly increased for cleaner visual separation */
+}
+
+.detail {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 13px 15px;
+}
+
+.detailLabel {
+  font-size: 10px;
+  color: var(--subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px; /* Added minor space below label */
+}
+
+.detailValue {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.green { color: var(--green); }
+
+/* --- New UI Focus Custom Components --- */
+
+.focusDetailCard {
+  background: rgba(255, 255, 255, 0.02); /* Makes the focus block pop out cleanly */
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Tight, organized layout spacing */
+  margin-top: 4px;
+}
+
+.focusBadge {
+  background: #161616; /* Clean crisp dark chip look */
+  border: 1px solid #262626; /* Super subtle line separation */
+  color: #e5e5e5;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  letter-spacing: 0.2px;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Subtle interactiveness when hovering over your focus stack pills */
+.focusBadge:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* Responsive constraints */
+@media (max-width: 680px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .title { font-size: 28px; }
+}

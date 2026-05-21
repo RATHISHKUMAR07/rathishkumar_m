@@ -1,0 +1,27 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem;
+  text-align: center;
+}
+
+.copy {
+  font-size: 12px;
+  color: var(--subtle);
+  margin-bottom: 10px;
+}
+.copy span { color: var(--gold); }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.nav a {
+  font-size: 11px;
+  color: var(--subtle);
+  padding: 2px 10px;
+  transition: color 0.15s;
+}
+.nav a:hover { color: var(--muted); }

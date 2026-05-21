@@ -1,0 +1,33 @@
+{
+  "name": "rathishkumar_m",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://RATHISHKUMAR07.github.io/rathishkumar_m",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

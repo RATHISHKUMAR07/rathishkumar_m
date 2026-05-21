@@ -1,0 +1,37 @@
+.sec {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  .sec { padding: 3.5rem 0; }
+  .container { padding: 0 1.25rem; }
+}
